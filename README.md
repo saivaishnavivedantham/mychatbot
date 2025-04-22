@@ -1,34 +1,26 @@
-🤖 Chatbot with Retrieval-Augmented Generation (RAG)
-📅 Oct 2024 – Jan 2025
-Built a semantic chatbot that answers Python programming questions using vector search and generative models.
+## 🤖 Chatbot with Retrieval-Augmented Generation (RAG)
+**📅 Duration:** Oct 2024 – Jan 2025  
+**📍 Institution:** UTA  
 
-🚀 Features
-Used PyMuPDF to parse Python textbooks and LangChain for smart document chunking.
+A Python chatbot capable of answering programming questions using semantic search and generative models.
 
-Generated dense embeddings using SentenceTransformers; indexed with FAISS for similarity search.
+### ✨ Highlights
+- Parsed textbook PDFs using **PyMuPDF** and chunked content via **LangChain**.
+- Generated dense embeddings using **SentenceTransformers** and indexed with **FAISS**.
+- Applied **TF-IDF filtering** for refined retrieval results.
+- Deployed a **DistilGPT-2** language model for response generation.
+- Served through **FastAPI**; achieved a 35% faster response time via optimized embeddings.
 
-Applied TF-IDF filtering to enhance query-context relevance.
+### 🧠 Architecture
+1. **Document Parsing** → PDF to text (PyMuPDF)
+2. **Chunking & Embedding** → LangChain + SentenceTransformers
+3. **Retrieval** → FAISS + TF-IDF Filtering
+4. **Generation** → DistilGPT-2 (HuggingFace)
+5. **Serving** → FastAPI API Endpoint
 
-Used DistilGPT-2 via HuggingFace for generative responses.
+### 🛠️ Tech Stack
+`Python`, `FAISS`, `LangChain`, `HuggingFace Transformers`, `FastAPI`, `PyMuPDF`, `SentenceTransformers`
 
-Deployed with FastAPI, reduced latency by 35% through query and embedding tuning.
-
-🧠 Architecture
-Data Preprocessing → PDF parsing → Text chunking
-
-Embedding Generation → SentenceTransformers
-
-Indexing & Retrieval → FAISS + TF-IDF
-
-Response Generation → DistilGPT-2
-
-API Serving → FastAPI
-
-📦 Tech Stack
-Python, FAISS, LangChain, SentenceTransformers, FastAPI, HuggingFace, PyMuPDF
-
-📈 Results
-35% faster response time
-
-Highly contextual answers based on textbook understanding
-
+### 📊 Results
+- ✅ Reduced latency by 35%
+- 📚 Accurately answered textbook-level Python questions
