@@ -1,5 +1,4 @@
 ## 🤖 Chatbot with Retrieval-Augmented Generation (RAG)
-**📅 Duration:** Oct 2024 – Jan 2025  
 **📍 Institution:** UTA  
 
 A Python chatbot capable of answering programming questions using semantic search and generative models.
